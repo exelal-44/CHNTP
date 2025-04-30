@@ -1,0 +1,1 @@
+ffmpeg -re -i http://wouu.net:9977/rtp/239.93.1.10:2193 -c:v copy -c:a copy -f mpegts http://xingkong.m3u8
